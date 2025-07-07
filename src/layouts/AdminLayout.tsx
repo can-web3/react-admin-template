@@ -29,6 +29,11 @@ export default function AdminLayout() {
                         <span>Kategoriler</span>
                     </Link>
                 </li>
+                <li>
+                    <Link to='/admin/urunler' className="flex gap-2 items-center hover:text-emerald-600">
+                        <span>Ürünler</span>
+                    </Link>
+                </li>
             </ul>
         </div>
 

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useContext, useState } from "react";
 import GlobalContext from "../../../contexts/GlobalContext";
 
-export default function Categories() {
+export default function Products() {
   const { openDeleteModal } = useContext(GlobalContext)
 
   const { values, handleSubmit, handleChange, isSubmitting } = useFormik({
@@ -69,8 +69,8 @@ export default function Categories() {
   return (
     <>
       <SectionHeader 
-        title='Kategoriler'
-        btnPath='/admin/kategoriler/ekle'
+        title='Ürünler'
+        btnPath='/admin/urunler/ekle'
       />
 
       <div className="bg-white p-4 rounded-lg">

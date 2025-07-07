@@ -21,11 +21,31 @@
     @apply border border-gray-300 rounded-lg py-2 px-3 text-[15px] outline-none placeholder-gray-400 focus:border-[#38CAB3];
   }
 
+  .select {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm outline-none rounded-lg focus:ring-[#38CAB3] focus:border-[#38CAB3] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+  }
+
   .bg-primary {
     @apply bg-[#38CAB3];
   }
 }
 
 
+.rdw-editor-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;    
+  padding: 4px 8px;          
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+.rdw-editor-toolbar {
+  border-bottom: 1px solid #ddd;
+  background: #fafafa;
+}
 
+.rdw-editor-body {
+  min-height: 200px;
+  padding: 8px;        
+  background-color: #fff;    
+}

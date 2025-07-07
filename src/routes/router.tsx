@@ -7,6 +7,8 @@ import Register from "../pages/auth/Register";
 import Categories from "../pages/admin/categories/Categories";
 import CreateCategory from "../pages/admin/categories/CreateCategory";
 import Login from "../pages/auth/Login";
+import Products from "../pages/admin/products/Products";
+import CreateProduct from "../pages/admin/products/CreateProduct";
 
 const router = createBrowserRouter([
     {
@@ -26,6 +28,9 @@ const router = createBrowserRouter([
             
             { path: 'kategoriler', element: <Categories /> },
             { path: 'kategoriler/ekle', element: <CreateCategory /> },
+
+            { path: 'urunler', element: <Products /> },
+            { path: 'urunler/ekle', element: <CreateProduct /> },
         ]
     }
 ])
